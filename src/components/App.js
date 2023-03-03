@@ -9,7 +9,7 @@ class App extends React.Component {
   
     handleButtonClick(){
         this.setState({
-
+            age:this.state.age+1
         })
     }
     render(){
